@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="150dp"
+    tools:context="com.abcdroid.kommmida.app.MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:hint="Usuario"
+        android:text="meison@gmail.com"
+        android:layout_height="wrap_content" />
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:text="123"
+            android:hint="Clave"
+            android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:text="Ingresar"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
